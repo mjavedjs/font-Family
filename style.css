@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccc;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+body{
+    display:grid;
+    place-items: center;
+}
+@font-face {
+    font-family:javed;
+    src: url(/carmitta/Carmitta.ttf);
+    
+}
+h1{
+    margin-bottom: 5rem;
+    /* font-family: "Playwrite ES", cursive; */
+    font-family: javed  ;
+    font-size: 3rem;
+    font-weight: 900;
+    font-variant: small-caps;
+    
+    
+}
+p{
+    font-family: "Playwrite AU SA", cursive;
+    font-size: 1.2rem;
+}
+.hero-section{
+    width: 50%;
+    /* border: 1px solid black; */
+}
