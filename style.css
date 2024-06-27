@@ -13,7 +13,7 @@ body{
 }
 @font-face {
     font-family:javed;
-    src: url(/carmitta/Carmitta.ttf);
+    src: url(./carmitta/Carmitta.ttf);
     
 }
 h1{
